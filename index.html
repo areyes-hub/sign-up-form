@@ -19,15 +19,50 @@
         </div>
         <div class="data-box right">
             <div class="description-box">
-                <p class="description">This is not a real online service! You know you need something like this in your
+                <h3 class="description">This is not a real online service! You know you need something like this in your
                     life to help you realize your deepest dreams. Sign up <em>now</em> to get started. <br> <br> You
                     <em>know</em> you want to.
-                </p>
+                </h3>
             </div>
             <div class="form-box">
+                <h3 class="form-heading">Let's do this!</h3>
+                <form action="#" id="odin-form">
+                    <div class="name">
+                        <label for="f_name">FIRST NAME
+                            <input type="text" id="f_name" name="f_name" minlength=3 maxlength=15 required>
+                        </label>
 
+                        <label for="l_name">LAST NAME
+                            <input type="text" id="l_name" name="l_name" minlength=3 maxlength=15 required />
+                        </label>
+                    </div>
+                    <div class="contact">
+                        <label for="email">EMAIL
+                            <input type="email" id="email" name="email" pattern="[a-zA-Z0-9]+@[a-z]+\.(com|net|gov|org)"
+                                required />
+                        </label>
+
+                        <label for="phone">PHONE NUMBER
+                            <input type="tel" id="phone" name="phone" pattern="^[\d]{10}$|^1\([\d]{3}\)[\d]{3}-[\d]{4}$"
+                                required />
+                        </label>
+                    </div>
+                    <div class="password">
+                        <label for="password">PASSWORD
+                            <input type="password" id="password" name="password" minlength=8 maxlength=12 required />
+                        </label>
+
+                        <label for="confirm">CONFIRM PASSWORD
+                            <input type="password" id="confirm" name="confirm_password" minlength=8 maxlength=12
+                                required />
+                        </label>
+                    </div>
+                </form>
             </div>
-            <div class="button-box"></div>
+            <div class="button-box">
+                <button form="odin-form" class="Create">Create Account</button>
+                <p>Already have an account? <a href="#"><strong class="login">Log in</strong></a></p>
+            </div>
         </div>
     </div>
 </body>
