@@ -44,7 +44,7 @@ button {
     width: 180px;
     font-size: medium;
     word-spacing: 2px;
-    margin: 32px 48px;
+    margin: 36px 48px;
     border: 0;
     border-radius: 8px;
     color: rgb(244, 239, 239);
@@ -59,6 +59,8 @@ button:hover {
 
 p {
     margin-left: 48px;
+    color: rgb(115, 115, 115);
+    text-shadow: 1px 1px 2px rgb(174, 174, 174);
 }
 
 a {
@@ -122,7 +124,7 @@ label[for="confirm"] {
     justify-content: left;
     flex-direction: column;
     width: 100%;
-    height: 740px;
+    height: 100vh;
 }
 
 .description-box {
@@ -173,6 +175,7 @@ label[for="confirm"] {
 
 .login {
     color: rgb(54, 129, 54);
+    text-shadow: none;
 }
 
 .login:hover {
