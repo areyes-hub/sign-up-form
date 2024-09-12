@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    appearance: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32, 33, 46);
+}
+
+#main-box {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    width: 1100px;
+    height: 740px;
+    background-color: rgb(234, 229, 229);
+}
+
+.img-box {
+    position: relative;
+    width: 650px;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url("./images/drew-dempsey-h9t6VOt8CXc-unsplash.jpg");
+    background-size: 100vh;
+}
+
+.odin-logo {
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'norsebold', sans-serif;
+    flex-direction: row;
+    font-size: 80px;
+    max-width: 100%;
+    height: 95px;
+    top: 150px;
+    background-size: contain;
+    background-color: rgb(34, 33, 33, 0.6);
+}
+
+.odin-logo::after {
+    content: "ODIN";
+}
+
+.odin-face {
+    position: relative;
+    float: left;
+    max-width: 75%;
+    max-height: 75%;
+}
+
+.data-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    flex-direction: column;
+    width: 100%;
+    height: 740px;
+}
+
+.description-box {
+    display: flex;
+    flex-direction: column;
+    height: 245px;
+    max-width: 100%;
+}
+
+.form-box {
+    display: flex;
+    height: 245px;
+    max-width: 100%;
+    box-shadow: 2px 3px 20px rgb(174, 174, 174);
+}
+
+.button-box {
+    display: flex;
+    height: 245px;
+    max-width: 100%;
+}
+
+.description {
+    display: block;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 48px;
+}
