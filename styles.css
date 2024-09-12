@@ -76,7 +76,7 @@ label[for="confirm"] {
     flex-direction: row;
     flex-shrink: 1;
     width: 1100px;
-    height: 740px;
+    height: 100vh;
     background-color: rgb(244, 239, 239);
 }
 
